@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/entrypoint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+     <Button
+         android:id="@+id/bEntryPoint"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:text="@string/bnext"
+         android:textStyle="bold" />
+
+     <NumberPicker
+         android:id="@+id/npPlayerCountPicker"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/bEntryPoint"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="75dp"
+         android:layout_marginRight="18dp" />
+
+     <TextView
+         android:id="@+id/tv_setplayers"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/bEntryPoint"
+         android:layout_centerVertical="true"
+         android:alpha="1111"
+         android:gravity="center_vertical"
+         android:text="@string/tv_setplayers"
+         android:textColor="@color/white"
+         android:textStyle="bold"
+         android:textSize="15sp" />
+
+</RelativeLayout>

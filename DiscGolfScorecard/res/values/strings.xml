@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Scorecard!</string>
+
+    <string name="bnext">Next!</string>
+
+    <string name="tv_setplayers">"Set the number of players: "</string>
+    <string name="name_header">Name:</string>
+    <string name="total_header">Total:</string>
+    <string name="score_header">Current Round:</string>
+    <string name="update_score_button">Start next round!</string>
+        
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="grey">#555</color>
+
+</resources>
